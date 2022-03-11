@@ -1,0 +1,97 @@
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 72px;
+    text-align: center;
+    background-color: rgb(235, 207, 173);
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 80px;
+    color:chocolate;
+    border : 20px solid rgb(53, 44, 36)
+    
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    background-color: rgb(114, 162, 218);
+    margin-left: 20px;
+    margin-right: 1080px;
+    border-radius: 80px;
+    color: rgb(43, 26, 14);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border : 10px solid rgb(38, 68, 124)
+
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    background-color: rgb(114, 162, 218);
+    margin: auto;
+    width: 600px;
+    border-radius: 80px;
+    color: rgb(43, 26, 14);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border : 10px solid rgb(38, 68, 124)
+
+}
+.OrderStep{
+    background-color:white;
+    border-radius: 25px;
+}
+li{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    text-align: left;
+}
+.Ingredients{
+    display: flex;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 1500px;
+}
+.Step{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+#stepimage{
+    width: 100%;
+    border-radius: 15px;
+}
+.OrderStep{
+    display: inline-block; 
+}
+.cinnamon{
+    display: inline-block; 
+    width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Ingredient_Layout{
+    display: inline-block; 
+}
+.Ingredient_Layout ul{
+    padding-right: 120px;
+}
+.cinnamon img{
+    border-radius: 15px;
+    width: 100%;
+}
+body{
+    background-color: rgb(252, 244, 237);
+}
+a:hover{
+    color: coral;
+}
+a:link{
+    color :rgb(46, 33, 230)
+}

@@ -1,0 +1,677 @@
+body{
+    font-family: 'Agency FB', arial;
+}
+.Port-grid-container {
+	display: grid;
+    grid-template-columns: 10% 45% 45%;
+}
+
+.Port-grid-container > div{
+	border: 1px dashed #818181;
+}
+#profileImg{
+    height: auto;
+    border-radius: 240px;
+    width: 18%;
+    text-align: left;
+    border : 12px solid #5D6B98;
+    box-shadow: 8px 4px 5px #131347;
+}
+#Port-Header{
+    grid-area: 1 / 2 / 2 / 4;
+    background-color: #8A99BA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#Port-Header > div{
+    width: 70%;
+    display: inline-block;
+    background-color: #F4CC84;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border : 12px solid #BBC7E0;
+    box-shadow: 8px 5px 1px #131347;
+}
+#Port-Header h1{
+    font-size:100px;
+    color: #131347;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#Port-Header h2{
+    font-size:50px;
+    color: #3a1206;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Port-Header h3{
+    font-size:20px;
+    color: #5a618d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Waypoint{
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    width: 120px;
+}
+#Waypoint a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(38, 0, 255);
+    font-size: 40px;
+}
+#Waypoint a:hover{
+    color: rgb(255, 0, 55);
+    font-size: 42px;
+}
+#waypointImg{
+    width: 100%;
+}
+#Name{
+    display: inline-block;
+}
+/*Education Background*/
+#Education{
+    padding-left: 20px;
+}
+#Education h1{
+    font-size: 54px;
+}
+#Education h2{
+    font-size: 36px;
+    color: #131347;
+}
+#Education h3{
+    font-size: 30px;
+    margin-left: 25px;
+    color: #5a618d;
+}
+.EducationInfo{
+    padding-left: 40px;
+}
+
+
+/*Contact*/
+#Contact{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.ContactGroup{
+    padding-left: 37px;
+}
+#Contact h1{
+    font-size: 48px;
+}
+.ContactInfo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.ContactInfo h2{
+    color: #131347;
+    margin-left: 20px;
+}
+.ContactInfo img{
+    width: 60px;
+}
+
+/*HardSkill*/
+#HardSkill{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#HardSkill h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+#HardSkill h2{
+    font-size: 40px;
+}
+#HardSkill h3{
+    font-size: 30px;
+    color: #5a618d
+}
+#HardSkill ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#HardSkill li{
+   margin-left: 60px;
+}
+.SkillGroup{
+    padding-top: 10px;
+    padding-left: 37px;
+}
+.SkillInfo img{
+    width: 60px;
+}
+.SkillInfo{
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.SkillInfo h2{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+
+/*SoftSkill*/
+#SoftSkill{
+    padding-left: 20px;
+}
+.SoftSkillGroup{
+    display: inline-block;
+}
+#SoftSkill h1{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 48px;
+}
+#SoftSkill h3{
+    font-size: 36px;
+    color: #5a618d
+}
+
+/*Interest*/
+#Interest{
+    padding-left: 20px;
+}
+.InterestGroup{
+    display: inline-block;
+}
+#Interest h1{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 48px;
+}
+#Interest h3{
+    font-size: 36px;
+    color: #5a618d
+}
+
+#Port-LeftBorder{
+    grid-area: 1 / 1 / 6 / 2;
+    background-color:#5D6B98;
+}
+#Education{
+    grid-area: 2 / 2 / 3 / 3;
+}
+#Contact{
+    grid-area: 2 / 3 / 3 / 4;
+}
+#HardSkill{
+    grid-area: 3 / 3 / 5 / 4;
+}
+#SoftSkill{
+    grid-area: 3 / 2 / 4 / 3;
+}
+#Interest{
+    grid-area: 4 / 2 / 5 / 3;
+}
+#Assignment h1{
+    font-size: 54px;
+}
+#Assignment h3{
+    font-size: 36px;
+    color: #131347;
+}
+#Assignment a:hover{
+    color: #db0030;
+}
+/*Project CSS*/
+.grid-container {
+	display: grid;
+    grid-template-columns: 4% 43% 5% 43% 4%;
+}
+
+.grid-container > div{
+	border: 1px dashed #818181;
+}
+#Header{
+    grid-area: 1 / 1 / 2 / 6;
+    background-image: url('ProjectRef/BG.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    height: 720px;
+}
+#LeftBorder{
+    grid-area: 2 / 1 / 6 / 2;
+    background-color:#517471;
+}
+#MiddleBorder{
+    grid-area: 2 / 3 / 6 / 4;
+    background-color:#878faa;
+}
+#RightBorder{
+    grid-area: 2 / 5 / 6 / 6; 
+    background-color:#517471;
+}
+#MainLeft1{
+    grid-area: 2 / 2 / 4 / 3; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#MainRight1{
+    grid-area: 2 / 4 / 4 / 5;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+#MainLeft2{
+    grid-area: 4 / 2 / 6 / 3;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+#MainRight2{
+    grid-area: 4 / 4 / 6 / 5;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+#Header > div{
+    background-color: #F4CC84;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 500px;
+    margin : auto;
+    margin-top: 400px;
+    margin-bottom: 20px;
+    border : 12px solid #BBC7E0;
+    box-shadow: 8px 5px 1px #131347;
+}
+#Header h1{
+    font-size: 72px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Header h3{
+    font-size: 24px; 
+}
+#Header a:hover{
+    color:#db0030
+}
+#MainLeft1 h1{
+    width: 98%;
+    background-color: #a0cee0;
+    border-radius: 15px;
+    border : 4px solid #525a6b;
+    box-shadow: 7px 4px 1px #131347;
+}
+#MainLeft1 h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+#MainRight1 h1{
+    width: 260px;
+    background-color: #b3a0e0;
+    border-radius: 15px;
+    border : 4px solid #525a6b;
+    box-shadow: 7px 4px 1px #131347;
+}
+#MainRight1 h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+#FormulaAllImage{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.FormulaImg{
+    display: inline-block;
+}
+.FormulaImg img{
+    width: 300px;
+    border : 2px solid #191f2e;
+    box-shadow: 2px 1px 3px #505057;
+}
+#MainRight1 video{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    border : 4px solid #191f2e;
+    box-shadow: 6px 4px 3px #505057;
+}
+#MainLeft2 h1{
+    width: 150px;
+    background-color: #a0a6e0;
+    border-radius: 15px;
+    border : 4px solid #525a6b;
+    box-shadow: 7px 4px 1px #131347;
+}
+#MainLeft2 h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+#MainLeft2 video{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    border : 4px solid #191f2e;
+    box-shadow: 6px 4px 3px #505057;
+}
+#MainRight2 h1{
+    width: 210px;
+    background-color: #8ea5e4;
+    border-radius: 15px;
+    border : 4px solid #525a6b;
+    box-shadow: 7px 4px 1px #131347;
+}
+#MainRight2 h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+#MainRight2 video{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    border : 4px solid #191f2e;
+    box-shadow: 6px 4px 3px #505057;
+}
+#MonsterAllImage{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.MonsterImg{
+    display: inline-block;
+}
+.MonsterImg img{
+    width: 300px;
+    border : 2px solid #191f2e;
+    box-shadow: 2px 1px 3px #505057;
+}
+#MainLeft1 video{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    border : 4px solid #191f2e;
+    box-shadow: 6px 4px 3px #505057;
+}
+.SaeboImg{
+    display: inline-block;
+}
+.SaeboImg img{
+    width: 300px;
+    border : 2px solid #191f2e;
+    box-shadow: 2px 1px 3px #505057;
+}
+#InkTaleAllImage{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.InkTaleImg{
+    display: inline-block;
+}
+.InkTaleImg img{
+    width: 300px;
+}
+@media only screen and (max-width: 768px) {
+    .Port-grid-container {
+        display: grid;
+        grid-template-columns: 4% 48% 48%;
+    }
+    #Port-Header h1{
+        font-size:52px;
+    }
+    #Port-Header h2{
+        font-size:32px;
+    }
+    #Port-Header h3{
+        font-size:16px;
+    }
+    #Waypoint{
+        margin-left: 50px;
+        text-align: center;
+        margin-top: 20px;
+        display: inline-block;
+        width: 69px;
+    }
+    #Waypoint h2{
+        color: rgb(219, 65, 65);
+        font-size: 40px;
+    }
+    #profileImg{
+        width: 25%;
+    }
+    .ContactInfo img{
+        width: 48px;
+    }
+    #Education h1{
+        font-size: 42px;
+    }
+    #Contact h1{
+        font-size: 42px;
+    }
+    #HardSkill h1{
+        font-size: 42px;
+    }
+    #SoftSkill h1{
+        font-size: 42px;
+    }
+    #Interest h1{
+        font-size: 42px;
+    }
+    .SoftSkillGroup{
+        display: block;
+    }
+    .InterestGroup{
+        display: block;
+    }
+    /*Project */
+    #MainLeft1 video{
+        width: 280px;
+    }
+    #MainLeft2 video{
+        width: 280px;
+    }
+    #MainRight1 video{
+        width: 280px;
+    }
+    #MainRight2 video{
+        width: 280px;
+    }
+    #Header{
+        height: 450px;
+    }
+    #Header > div{
+        margin-top: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+}
+@media only screen and (max-width: 480px) {
+    .Port-grid-container {
+        display: grid;
+        grid-template-columns: 10% 90% ;
+    }
+    #Port-Header{
+        grid-area: 1 / 2 / 2 / 3;
+        text-align: center;
+    }
+    #Port-Header h1{
+        font-size:43px;
+    }
+    #Port-LeftBorder{
+        grid-area: 1 / 1 / 8 / 2;
+        background-color:#5D6B98;
+    }
+    #Education{
+        grid-area: 2 / 2 / 3 / 3;
+        padding-left: 0px;
+    }
+    #Contact{
+        grid-area: 3 / 2 / 4 / 3;
+        padding-left: 0px;
+    }
+    #HardSkill{
+        grid-area: 4 / 2 / 5 / 2;
+        padding-left: 0px;
+    }
+    #SoftSkill{
+        grid-area: 5 / 2 / 6 / 2;
+        padding-left: 0px;
+    }
+    #Interest{
+        grid-area: 6 / 2 / 7 / 2;
+        padding-left: 0px;
+    }
+    #Assignment{
+        grid-area: 7 / 2 / 8 / 2;
+        padding-left: 0px;
+    }
+    #Assignment h1{
+        font-size: 40px;
+    }
+    #Assignment h3{
+        font-size: 20px;
+    }
+    #Port-Header > div{
+        width: 48%;
+    }
+    #profileImg{
+        height: auto;
+        border-radius: 240px;
+        width: 60%;
+        border : 12px solid #5D6B98;
+        box-shadow: 8px 4px 5px #131347;
+    }
+    #Waypoint{
+        margin-left: 32px;
+        margin-right: 32px;
+        text-align: center;
+        margin-top: 20px;
+        display:  block;
+        width: 69px;
+    }
+    #Name{
+        display: inline;
+    }
+    #Header h1{
+        font-size:40px;
+        margin-left: -18px;
+        text-align: center;
+    }
+    #Port-Header h2{
+        font-size:24px;
+    }
+    #Port-Header h3{
+        font-size:16px;
+    }
+    #Education h1{
+        font-size: 32px;
+    }
+    #Education h2{
+        font-size: 26px;
+    }
+    #Education h3{
+        font-size: 20px;
+    }
+    #Contact h1{
+        font-size: 32px;
+    }
+    #Contact h2{
+        font-size: 26px;
+    }
+    #Contact h3{
+        font-size: 20px;
+    }
+    #HardSkill h1{
+        font-size: 32px;
+    }
+    #HardSkill h2{
+        font-size: 26px;
+    }
+    #HardSkill h3{
+        font-size: 20px;
+    }
+    #SoftSkill h1{
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 32px;
+    }
+    #SoftSkill h2{
+        font-size: 26px;
+    }
+    #SoftSkill h3{
+        font-size: 20px;
+    }
+    #Interest h1{
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 32px;
+    }
+    #Interest h2{
+        font-size: 26px;
+    }
+    #Interest h3{
+        font-size: 20px;
+    }
+    .ContactInfo{
+        display: block;
+    }
+    .ContactGroup {
+        text-align: center;
+        padding-left: 0px;
+    }
+    /*Project*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: 4% 92% 4%;
+    }
+    #Header{
+        grid-area: 1 / 1 / 2 / 4;
+        height: 300px;
+    }
+    #LeftBorder{
+        grid-area: 2 / 1 / 6 / 2; 
+    }
+    #RightBorder{
+        grid-area: 2 / 3 / 6 / 4;
+    }
+    #MainLeft1{
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    #MainLeft2{
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    #MainRight1{
+        grid-area: 4 / 2 / 5 / 3;
+    }
+    #MainRight2{
+        grid-area: 5 / 2 / 6 / 3; 
+    }
+    #Header > div{
+        margin-top: 100px;
+        width: 270px;
+    } 
+    #Header h1{
+        font-size: 48px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

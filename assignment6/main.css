@@ -1,0 +1,38 @@
+body{
+    font-family: 'Agency FB', arial;
+    background-color: rgb(255, 220, 239);
+}
+#errormsg{
+    color: rgb(215, 0, 0);
+}
+.element{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#myForm{
+    width: 600px;
+    margin:auto
+}
+#myLogin{
+    width: 600px;
+    margin:auto
+}
+legend{
+    font-size: 32px;
+    border-radius: 10px;
+    border-style: dashed ;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: antiquewhite;
+}
+fieldset{
+    font-size: 22px;
+    border-radius: 10px;
+    border-style: dashed ;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: rgb(215, 249, 250);
+}
+input{
+    border-radius: 5px;
+}
