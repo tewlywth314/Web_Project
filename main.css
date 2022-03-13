@@ -181,6 +181,7 @@ body{
 #SoftSkill h3{
     font-size: 36px;
     color: #5a618d
+    
 }
 
 /*Interest*/
@@ -201,7 +202,7 @@ body{
 }
 
 #Port-LeftBorder{
-    grid-area: 1 / 1 / 6 / 2;
+    grid-area: 1 / 1 / 7 / 2;
     background-color:#5D6B98;
 }
 #Education{
@@ -219,6 +220,9 @@ body{
 #Interest{
     grid-area: 4 / 2 / 5 / 3;
 }
+#Ref{
+    grid-area: 5 / 3 / 6 / 4;
+}
 #Assignment h1{
     font-size: 54px;
 }
@@ -227,6 +231,17 @@ body{
     color: #131347;
 }
 #Assignment a:hover{
+    color: #db0030;
+}
+#Ref h1{
+    font-size: 54px;
+}
+#Ref h3{
+    font-size: 36px;
+    color: #131347;
+    padding-left: 20px;
+}
+#Ref a:hover{
     color: #db0030;
 }
 /*Project CSS*/
@@ -517,7 +532,7 @@ body{
         font-size:43px;
     }
     #Port-LeftBorder{
-        grid-area: 1 / 1 / 8 / 2;
+        grid-area: 1 / 1 / 9 / 2;
         background-color:#5D6B98;
     }
     #Education{
@@ -543,6 +558,16 @@ body{
     #Assignment{
         grid-area: 7 / 2 / 8 / 2;
         padding-left: 0px;
+    }
+    #Ref{
+        grid-area: 8 / 2 / 9 / 2;
+        padding-left: 0px;
+    }
+    #Ref h1{
+        font-size: 40px;
+    }
+    #Ref h3{
+        font-size: 20px;
     }
     #Assignment h1{
         font-size: 40px;
